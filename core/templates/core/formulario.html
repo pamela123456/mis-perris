@@ -1,0 +1,36 @@
+{% extends "core/base.html" %}
+
+{% block contenido3 %}
+<h2>Formulario</h2>
+<form action="" id="postulanteFormulario">
+        <label for="">Nombre completo:</label>
+        <input type="text"  name="txtNombre" id="txtNombre">
+        <br>
+        <label for="">Run:</label>
+        <input type="text"  name="txtRun" id="txtRun">
+        <br>
+        <label for="">Fecha de Nacimiento:</label>
+        <input type="date"   name="txtFechaNacimiento" id="txtFechaNacimiento">
+        <br>    
+        <label for="">Región:</label>
+        <select  name="cboRegion" id="cboRegion">
+        </select>
+        <br>
+        <label for="">Ciudad:</label>
+        <select  name="cboCiudad" id="cboCiudad">
+        </select>
+        <br>
+        <label for="">Tipo de Vivienda:</label>
+        <select  name="cboVivienda" id="cboVivienda">
+        </select>
+        <br>
+        <label for="">Teléfono de contacto:</label>
+        <input type="text"  name="txtTelefono" id="txtTelefono">
+        <br>
+        <label for="">Correo electrónico:</label>
+        <input type="text"  name="txtCorreo" id="txtCorreo">
+        <br>
+        <input type="submit" name="btnAceptar" id="btnAceptar" value="Aceptar">
+    </form>    
+{% endblock contenido3 %}
+
